@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "remove_eye_frame",
+	"version": "${version}",
+	"name": "Remove Eye Frame",
+	"description": "removes the eyes from the end portal frame",
+	"authors": [
+		"Dalethium"
+	],
+	"contact": {
+		"homepage": "https://github.com/WeNeedCoffee/RemoveEyeFrame",
+		"sources": "https://github.com/WeNeedCoffee/RemoveEyeFrame"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/remove_eye_frame/icon.png",
+	"environment": "server",
+	"entrypoints": {
+		"main": [
+			"coffee.weneed.minecraft.ref.RemoveEyeFrameMod"
+		]
+	},
+	"mixins": [
+		"remove_eye_frame.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
